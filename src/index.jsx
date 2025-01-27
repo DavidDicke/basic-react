@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/app';
 
 import '../assets/stylesheets/application.scss';
 
@@ -39,5 +40,5 @@ class Hello extends Component {
 
 const root = document.getElementById('root');
 if (root) {
-  ReactDOM.render(<Hello name="World" />, root);
+  ReactDOM.render(<App />, root);
 }
